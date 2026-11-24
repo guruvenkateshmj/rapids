@@ -1,0 +1,13 @@
+Chips with any NaN:   23 / 252
+NaN pixels (either band): 1,325,136
+  labelled -1 (no data):    1,300,986   98.18 %
+  labelled  0 (dry):           23,793    1.80 %
+  labelled  1 (water):            357    0.03 %
+
+Chips where NaN pixels carry a real label: 15
+Top 5 (chip, labelled NaN pixels, % of chip):
+  USA_438959              5,815    2.22 %
+  Ghana_134751            5,353    2.04 %
+  India_981708            4,031    1.54 %
+  India_979278            3,079    1.17 %
+  India_774689              864    0.33 %
