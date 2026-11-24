@@ -20,13 +20,14 @@ from unet_model import UNet
 # --- Settings (decided together) ---------------------------------------
 EPOCHS = 100                    # 2 = smoke test. Change to 100 for the real run.
 BATCH_SIZE = 8
-CROP_SIZE = 256
+CROP_SIZE =256
 LEARNING_RATE = 1e-3
 CLASS_WEIGHTS = [1.0, 3.0]    # dry, water  (sqrt of the 9.5 : 1 imbalance)
 SEED = 42
-CHECKPOINT = "checkpoints/unet_best.pt"
-LOG_FILE = "training_log.csv"
-
+BASE = 64
+RUN_NAME = "run2_base64"
+CHECKPOINT = f"checkpoints/{RUN_NAME}_best.pt"
+LOG_FILE = f"{RUN_NAME}_log.csv"
 # --- Reproducibility: same seed -> same crops, shuffles and start weights.
 np.random.seed(SEED)
 torch.manual_seed(SEED)
@@ -48,7 +49,7 @@ train_loader = DataLoader(train_set, batch_size=BATCH_SIZE, shuffle=True,
 valid_loader = DataLoader(valid_set, batch_size=4, shuffle=False, num_workers=0)
 
 # --- Model, loss, optimiser, schedule ----------------------------------
-model = UNet().to(device)
+model = UNet(base=BASE).to(device)
 # ignore_index=-1: no-data pixels (and the NaN pixels we set to -1) never count.
 loss_fn = nn.CrossEntropyLoss(weight=torch.tensor(CLASS_WEIGHTS, device=device),
                               ignore_index=-1)
