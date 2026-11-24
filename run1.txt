@@ -1,0 +1,104 @@
+Device: mps
+Epoch   1/100  train_loss 0.4435  val_loss 0.3668  val_IoU 0.5464  lr 0.001000  16.2s  <- best, saved
+Epoch   2/100  train_loss 0.3500  val_loss 0.2614  val_IoU 0.5428  lr 0.001000  15.1s
+Epoch   3/100  train_loss 0.3331  val_loss 0.2633  val_IoU 0.5636  lr 0.000999  15.8s  <- best, saved
+Epoch   4/100  train_loss 0.3324  val_loss 0.2875  val_IoU 0.4851  lr 0.000998  13.4s
+Epoch   5/100  train_loss 0.3062  val_loss 0.2364  val_IoU 0.6070  lr 0.000996  13.9s  <- best, saved
+Epoch   6/100  train_loss 0.3077  val_loss 0.2347  val_IoU 0.5715  lr 0.000994  13.8s
+Epoch   7/100  train_loss 0.2790  val_loss 0.2695  val_IoU 0.5586  lr 0.000991  16.2s
+Epoch   8/100  train_loss 0.2773  val_loss 0.1998  val_IoU 0.5979  lr 0.000988  16.0s
+Epoch   9/100  train_loss 0.3037  val_loss 0.2712  val_IoU 0.4500  lr 0.000984  15.6s
+Epoch  10/100  train_loss 0.3032  val_loss 0.2759  val_IoU 0.5231  lr 0.000980  14.1s
+Epoch  11/100  train_loss 0.2878  val_loss 0.2050  val_IoU 0.5927  lr 0.000976  14.6s
+Epoch  12/100  train_loss 0.2782  val_loss 0.2288  val_IoU 0.5746  lr 0.000970  13.6s
+Epoch  13/100  train_loss 0.2519  val_loss 0.3276  val_IoU 0.3954  lr 0.000965  12.8s
+Epoch  14/100  train_loss 0.2620  val_loss 0.2529  val_IoU 0.5620  lr 0.000959  12.7s
+Epoch  15/100  train_loss 0.2683  val_loss 0.2094  val_IoU 0.5755  lr 0.000952  12.7s
+Epoch  16/100  train_loss 0.2779  val_loss 0.2255  val_IoU 0.6090  lr 0.000946  12.7s  <- best, saved
+Epoch  17/100  train_loss 0.2718  val_loss 0.2077  val_IoU 0.6210  lr 0.000938  13.7s  <- best, saved
+Epoch  18/100  train_loss 0.2762  val_loss 0.2368  val_IoU 0.5474  lr 0.000930  13.7s
+Epoch  19/100  train_loss 0.2631  val_loss 0.2149  val_IoU 0.6078  lr 0.000922  13.3s
+Epoch  20/100  train_loss 0.2401  val_loss 0.2046  val_IoU 0.5912  lr 0.000914  13.5s
+Epoch  21/100  train_loss 0.2733  val_loss 0.1957  val_IoU 0.6134  lr 0.000905  13.2s
+Epoch  22/100  train_loss 0.2626  val_loss 0.2126  val_IoU 0.6235  lr 0.000895  13.3s  <- best, saved
+Epoch  23/100  train_loss 0.2704  val_loss 0.2202  val_IoU 0.5558  lr 0.000885  13.1s
+Epoch  24/100  train_loss 0.2528  val_loss 0.2114  val_IoU 0.6164  lr 0.000875  14.0s
+Epoch  25/100  train_loss 0.2719  val_loss 0.1889  val_IoU 0.6064  lr 0.000864  13.4s
+Epoch  26/100  train_loss 0.2654  val_loss 0.2031  val_IoU 0.6180  lr 0.000854  13.4s
+Epoch  27/100  train_loss 0.2553  val_loss 0.1917  val_IoU 0.6202  lr 0.000842  13.3s
+Epoch  28/100  train_loss 0.2570  val_loss 0.1887  val_IoU 0.5922  lr 0.000831  13.8s
+Epoch  29/100  train_loss 0.2514  val_loss 0.1918  val_IoU 0.5863  lr 0.000819  13.5s
+Epoch  30/100  train_loss 0.2541  val_loss 0.2430  val_IoU 0.5922  lr 0.000806  13.5s
+Epoch  31/100  train_loss 0.2360  val_loss 0.2108  val_IoU 0.6246  lr 0.000794  13.5s  <- best, saved
+Epoch  32/100  train_loss 0.2554  val_loss 0.2423  val_IoU 0.4932  lr 0.000781  14.1s
+Epoch  33/100  train_loss 0.2593  val_loss 0.1941  val_IoU 0.6327  lr 0.000768  12.9s  <- best, saved
+Epoch  34/100  train_loss 0.2738  val_loss 0.2018  val_IoU 0.6140  lr 0.000755  12.7s
+Epoch  35/100  train_loss 0.2185  val_loss 0.1884  val_IoU 0.6371  lr 0.000741  13.0s  <- best, saved
+Epoch  36/100  train_loss 0.2394  val_loss 0.2771  val_IoU 0.5056  lr 0.000727  12.9s
+Epoch  37/100  train_loss 0.2279  val_loss 0.2074  val_IoU 0.6041  lr 0.000713  13.1s
+Epoch  38/100  train_loss 0.2233  val_loss 0.2002  val_IoU 0.6274  lr 0.000699  13.7s
+Epoch  39/100  train_loss 0.2217  val_loss 0.2255  val_IoU 0.5566  lr 0.000684  14.0s
+Epoch  40/100  train_loss 0.2464  val_loss 0.2019  val_IoU 0.5762  lr 0.000669  13.7s
+Epoch  41/100  train_loss 0.2148  val_loss 0.2024  val_IoU 0.6203  lr 0.000655  13.5s
+Epoch  42/100  train_loss 0.2170  val_loss 0.1972  val_IoU 0.6269  lr 0.000639  13.7s
+Epoch  43/100  train_loss 0.2294  val_loss 0.1885  val_IoU 0.6167  lr 0.000624  14.3s
+Epoch  44/100  train_loss 0.2391  val_loss 0.2028  val_IoU 0.5970  lr 0.000609  13.3s
+Epoch  45/100  train_loss 0.2209  val_loss 0.1873  val_IoU 0.6115  lr 0.000594  12.9s
+Epoch  46/100  train_loss 0.2215  val_loss 0.1895  val_IoU 0.6317  lr 0.000578  13.1s
+Epoch  47/100  train_loss 0.2291  val_loss 0.1843  val_IoU 0.5960  lr 0.000563  12.8s
+Epoch  48/100  train_loss 0.2260  val_loss 0.1872  val_IoU 0.6174  lr 0.000547  14.9s
+Epoch  49/100  train_loss 0.2227  val_loss 0.1860  val_IoU 0.6253  lr 0.000531  13.8s
+Epoch  50/100  train_loss 0.2239  val_loss 0.1882  val_IoU 0.6369  lr 0.000516  13.7s
+Epoch  51/100  train_loss 0.2200  val_loss 0.1894  val_IoU 0.6065  lr 0.000500  13.2s
+Epoch  52/100  train_loss 0.2084  val_loss 0.1956  val_IoU 0.6263  lr 0.000484  13.3s
+Epoch  53/100  train_loss 0.2150  val_loss 0.1870  val_IoU 0.6295  lr 0.000469  13.5s
+Epoch  54/100  train_loss 0.2127  val_loss 0.1891  val_IoU 0.6272  lr 0.000453  13.2s
+Epoch  55/100  train_loss 0.2231  val_loss 0.1942  val_IoU 0.6343  lr 0.000437  14.0s
+Epoch  56/100  train_loss 0.2009  val_loss 0.2176  val_IoU 0.6030  lr 0.000422  13.2s
+Epoch  57/100  train_loss 0.2240  val_loss 0.1850  val_IoU 0.6334  lr 0.000406  13.5s
+Epoch  58/100  train_loss 0.2173  val_loss 0.1989  val_IoU 0.5580  lr 0.000391  13.5s
+Epoch  59/100  train_loss 0.2283  val_loss 0.1792  val_IoU 0.6048  lr 0.000376  14.1s
+Epoch  60/100  train_loss 0.2183  val_loss 0.1920  val_IoU 0.6333  lr 0.000361  14.7s
+Epoch  61/100  train_loss 0.2223  val_loss 0.1938  val_IoU 0.6299  lr 0.000345  13.3s
+Epoch  62/100  train_loss 0.1953  val_loss 0.1874  val_IoU 0.6160  lr 0.000331  13.6s
+Epoch  63/100  train_loss 0.2030  val_loss 0.1888  val_IoU 0.6272  lr 0.000316  13.5s
+Epoch  64/100  train_loss 0.2233  val_loss 0.1799  val_IoU 0.6290  lr 0.000301  13.6s
+Epoch  65/100  train_loss 0.1932  val_loss 0.1825  val_IoU 0.6332  lr 0.000287  13.1s
+Epoch  66/100  train_loss 0.2047  val_loss 0.1918  val_IoU 0.6172  lr 0.000273  12.9s
+Epoch  67/100  train_loss 0.1862  val_loss 0.1836  val_IoU 0.6078  lr 0.000259  12.8s
+Epoch  68/100  train_loss 0.1928  val_loss 0.1854  val_IoU 0.6331  lr 0.000245  12.9s
+Epoch  69/100  train_loss 0.2074  val_loss 0.1840  val_IoU 0.6310  lr 0.000232  12.8s
+Epoch  70/100  train_loss 0.1925  val_loss 0.1887  val_IoU 0.6320  lr 0.000219  12.8s
+Epoch  71/100  train_loss 0.1952  val_loss 0.1764  val_IoU 0.6271  lr 0.000206  12.8s
+Epoch  72/100  train_loss 0.2181  val_loss 0.1773  val_IoU 0.6176  lr 0.000194  12.7s
+Epoch  73/100  train_loss 0.1887  val_loss 0.1776  val_IoU 0.6241  lr 0.000181  13.0s
+Epoch  74/100  train_loss 0.1986  val_loss 0.1820  val_IoU 0.6275  lr 0.000169  13.8s
+Epoch  75/100  train_loss 0.1942  val_loss 0.1824  val_IoU 0.6183  lr 0.000158  13.3s
+Epoch  76/100  train_loss 0.1861  val_loss 0.1746  val_IoU 0.6172  lr 0.000146  13.5s
+Epoch  77/100  train_loss 0.1988  val_loss 0.1827  val_IoU 0.6320  lr 0.000136  13.1s
+Epoch  78/100  train_loss 0.1899  val_loss 0.1791  val_IoU 0.5960  lr 0.000125  13.1s
+Epoch  79/100  train_loss 0.1990  val_loss 0.1807  val_IoU 0.6240  lr 0.000115  13.9s
+Epoch  80/100  train_loss 0.1921  val_loss 0.1840  val_IoU 0.6288  lr 0.000105  13.4s
+Epoch  81/100  train_loss 0.1894  val_loss 0.1776  val_IoU 0.6297  lr 0.000095  13.3s
+Epoch  82/100  train_loss 0.1974  val_loss 0.1853  val_IoU 0.6165  lr 0.000086  13.7s
+Epoch  83/100  train_loss 0.1968  val_loss 0.1782  val_IoU 0.6121  lr 0.000078  13.1s
+Epoch  84/100  train_loss 0.2007  val_loss 0.1805  val_IoU 0.6240  lr 0.000070  13.7s
+Epoch  85/100  train_loss 0.1911  val_loss 0.1789  val_IoU 0.6211  lr 0.000062  13.1s
+Epoch  86/100  train_loss 0.1908  val_loss 0.1856  val_IoU 0.6240  lr 0.000054  13.4s
+Epoch  87/100  train_loss 0.1908  val_loss 0.1872  val_IoU 0.6246  lr 0.000048  13.0s
+Epoch  88/100  train_loss 0.1875  val_loss 0.1804  val_IoU 0.6095  lr 0.000041  13.4s
+Epoch  89/100  train_loss 0.2019  val_loss 0.1808  val_IoU 0.6199  lr 0.000035  14.1s
+Epoch  90/100  train_loss 0.1934  val_loss 0.1840  val_IoU 0.6222  lr 0.000030  14.0s
+Epoch  91/100  train_loss 0.1867  val_loss 0.1878  val_IoU 0.6227  lr 0.000024  14.2s
+Epoch  92/100  train_loss 0.1954  val_loss 0.1869  val_IoU 0.6221  lr 0.000020  13.7s
+Epoch  93/100  train_loss 0.1859  val_loss 0.1832  val_IoU 0.6200  lr 0.000016  13.0s
+Epoch  94/100  train_loss 0.1902  val_loss 0.1812  val_IoU 0.6234  lr 0.000012  13.9s
+Epoch  95/100  train_loss 0.1941  val_loss 0.1820  val_IoU 0.6202  lr 0.000009  13.6s
+Epoch  96/100  train_loss 0.1890  val_loss 0.1823  val_IoU 0.6238  lr 0.000006  13.3s
+Epoch  97/100  train_loss 0.1780  val_loss 0.1804  val_IoU 0.6176  lr 0.000004  13.0s
+Epoch  98/100  train_loss 0.1902  val_loss 0.1802  val_IoU 0.6194  lr 0.000002  14.2s
+Epoch  99/100  train_loss 0.1909  val_loss 0.1825  val_IoU 0.6220  lr 0.000001  14.1s
+Epoch 100/100  train_loss 0.1900  val_loss 0.1809  val_IoU 0.6160  lr 0.000000  13.0s
+
+Best val IoU 0.6371 at epoch 35  -> checkpoints/unet_best.pt
+Average 13.6 s per epoch  ->  100 epochs ~ 23 min
