@@ -1,0 +1,23 @@
+Device: mps
+
+checkpoints/run1_base32_best.pt
+  valid    ( 89 chips)  IoU 0.6371  precision 0.7665  recall 0.7905
+  test     ( 90 chips)  IoU 0.6563  precision 0.7763  recall 0.8094
+  bolivia  ( 15 chips)  IoU 0.6171  precision 0.8473  recall 0.6944
+
+checkpoints/run2_base32_seed1_best.pt
+  valid    ( 89 chips)  IoU 0.6339  precision 0.7674  recall 0.7847
+  test     ( 90 chips)  IoU 0.6661  precision 0.7883  recall 0.8111
+  bolivia  ( 15 chips)  IoU 0.6319  precision 0.8490  recall 0.7119
+
+checkpoints/run2_base32_seed2_best.pt
+  valid    ( 89 chips)  IoU 0.6382  precision 0.7627  recall 0.7963
+  test     ( 90 chips)  IoU 0.6521  precision 0.7663  recall 0.8140
+  bolivia  ( 15 chips)  IoU 0.7035  precision 0.8426  recall 0.8100
+
+Mean +/- std over 3 seeds
+  valid     IoU 0.6364 +/- 0.0022  precision 0.7655 +/- 0.0025  recall 0.7905 +/- 0.0058
+  test      IoU 0.6582 +/- 0.0072  precision 0.7770 +/- 0.0111  recall 0.8115 +/- 0.0024
+  bolivia   IoU 0.6509 +/- 0.0462  precision 0.8463 +/- 0.0033  recall 0.7388 +/- 0.0623
+
+Saved results.csv

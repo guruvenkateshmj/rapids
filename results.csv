@@ -1,0 +1,10 @@
+checkpoint,split,chips,iou,precision,recall
+checkpoints/run1_base32_best.pt,valid,89,0.637061,0.766468,0.790499
+checkpoints/run1_base32_best.pt,test,90,0.656274,0.776250,0.809382
+checkpoints/run1_base32_best.pt,bolivia,15,0.617148,0.847315,0.694369
+checkpoints/run2_base32_seed1_best.pt,valid,89,0.633920,0.767423,0.784668
+checkpoints/run2_base32_seed1_best.pt,test,90,0.666077,0.788343,0.811133
+checkpoints/run2_base32_seed1_best.pt,bolivia,15,0.631912,0.849024,0.711908
+checkpoints/run2_base32_seed2_best.pt,valid,89,0.638230,0.762728,0.796337
+checkpoints/run2_base32_seed2_best.pt,test,90,0.652115,0.766258,0.814048
+checkpoints/run2_base32_seed2_best.pt,bolivia,15,0.703500,0.842561,0.809974
